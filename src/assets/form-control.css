@@ -1,0 +1,30 @@
+.form-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  gap: 12px;
+}
+
+input.highlighted {
+  background-color: lightgreen;
+}
+
+.search-container {
+  margin-bottom: 1rem;
+}
+input,
+button {
+  height: 42px;
+}

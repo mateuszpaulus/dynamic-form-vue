@@ -18,16 +18,17 @@ import { RouterLink, RouterView } from 'vue-router'
 <style scoped>
 header {
   line-height: 1.5;
-  max-height: 100vh;
+  margin-bottom: 20px;
 }
 
 nav {
   width: 100%;
-  font-size: 12px;
+  font-size: 16px;
   text-align: center;
   margin-top: 2rem;
   display: flex;
   place-items: center;
+  justify-content: center;
 }
 
 nav a.router-link-exact-active {
@@ -47,12 +48,11 @@ nav a {
 nav a:first-of-type {
   border: 0;
 }
-
 @media (min-width: 1024px) {
   header {
     display: flex;
     place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
+    margin-bottom: 0;
   }
 
   header .wrapper {
@@ -65,7 +65,6 @@ nav a:first-of-type {
     text-align: left;
     margin-left: -1rem;
     font-size: 1rem;
-
     padding: 1rem 0;
     margin-top: 1rem;
   }
