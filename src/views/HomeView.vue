@@ -10,7 +10,7 @@
       />
     </div>
     <div class="form">
-      <div v-for="(field, index) in fields" :key="field" class="field">
+      <div v-for="(field, index) in fields" :key="index" class="field">
         <input
           type="text"
           v-model="field.value"
